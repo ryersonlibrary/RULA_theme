@@ -8,3 +8,6 @@ Drupal 7 Theme for Ryerson Digital Repository
 The Drupal 7 Bootstrap theme is required in order for this sub-theme to work correctly
 
 You can find the Bootstrap theme here https://drupal.org/project/bootstrap
+
+###Setup
+To setup the theme, enable it and set it to default under Admin > Appearance
