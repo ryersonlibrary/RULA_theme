@@ -1,0 +1,153 @@
+/*
+ This file overrides default bootstrap styles to create the final theme.
+*/
+
+
+/*
+ **************
+ * Global styles
+ **************
+*/
+
+a {
+	color: #1c5793;
+}
+
+
+/*
+ **************
+ * Navigation Bar styles
+ **************
+*/
+
+.navbar {
+	-webkit-box-shadow: 0 1px 4px rgba(224,177,47,1);
+	box-shadow: 0 1px 4px rgba(224,177,47,1);
+}
+
+.navbar-btn {
+	margin: 0;
+}
+
+.navbar-default
+.navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: #FFF;
+	background-color: #1c5793;
+}
+
+
+/*
+ **************
+ * Footer styles
+ **************
+*/
+
+.footer {
+	margin-top: 0;
+	padding: 10px 15px;
+}
+
+
+/*
+ **************
+ * H styles
+ **************
+*/
+
+h1, .h1 { font-size: 195%; }
+h2, .h2 { font-size: 150%; }
+h3, .h3 { font-size: 120%; }
+
+
+/*
+ **************
+ * Button styles
+ **************
+*/
+
+.btn-primary,
+.btn-primary:hover {
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#2a7fd6),color-stop(6%,#1c5793),to(#15426f));
+	background-image: -webkit-linear-gradient(#2a7fd6,#1c5793 6%,#15426f);
+	background-image: -moz-linear-gradient(top,#2a7fd6,#1c5793 6%,#15426f);
+	background-image: linear-gradient(#2a7fd6,#1c5793 6%,#15426f);
+	background-repeat: no-repeat;
+	border: 1px solid #3071a9;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1c5793',endColorstr='#ff15426f',GradientType=0);
+	filter: none;
+}
+
+
+/*
+ **************
+ * Solr styles
+ **************
+*/
+
+.block ul.islandora-solr-facet {
+	padding: 0;
+	list-style: none;
+}
+
+ul.islandora-solr-facet > li {
+	padding: 3px 0;
+}
+
+ul.islandora-solr-facet > li:hover {
+	background-color: #1c5793;
+	color: white;
+}
+
+ul.islandora-solr-facet > li:hover a {
+	color: white;
+}
+
+ul.islandora-solr-facet > li > a {
+	padding: 4px 85px 4px 0;
+}
+
+ul.islandora-solr-facet > li > a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#islandora-solr-simple-search-form .btn-primary {
+	margin-top: 0.25em;
+	float: right;
+}
+
+.form-item-islandora-simple-search-query {
+	width: 100%;
+}
+
+.islandora-solr-facet-wrapper h3 {
+	display: inline;
+}
+.islandora-solr-facet-wrapper .btn-primary {
+	display: inline;
+	float: right;
+	padding: 0 10px;
+}
+/**
+.islandora-solr-facet .plusminus {
+	background-image: url("../img/facet-bg.png");
+	background-position: 50% 50%;
+	width: 26px;
+	text-align: center;
+}
+
+.islandora-solr-facet .plusminus .plus {
+	color: #fff;
+}
+
+.islandora-solr-facet .plusminus .minus {
+	color: #000;
+}
+
+.islandora-solr-facet .plusminus .plus:hover,
+.islandora-solr-facet .plusminus .minus:hover {
+	text-decoration: none;
+}
+**/
