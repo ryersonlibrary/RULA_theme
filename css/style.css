@@ -272,7 +272,7 @@ span.view-count {
 }
 
 .breadcrumb>.active.last {
-	max-width: 100%;
+	max-width: 70%;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
