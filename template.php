@@ -11,6 +11,11 @@
  * @see page.tpl.php
  */
 function rula_preprocess_page(&$variables) {
+	// Add font awesome cdn.
+	drupal_add_css('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css', array(
+		'type' => 'external'
+	));
+
 	// Add information about the number of sidebars.
 	if ((!empty($variables['page']['sidebar_first']) || !empty($variables['page']['sidebar_second'])) && !empty($variables['page']['sidebar_third'])) {
 	$variables['content_column_class'] = ' class="col-sm-6"';
