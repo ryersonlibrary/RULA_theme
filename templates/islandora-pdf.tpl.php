@@ -16,7 +16,6 @@
       <?php if (isset($islandora_download_link)): ?>
         <?php print $islandora_download_link; ?>
       <?php endif; ?>
-      <?php print $description; ?>
       </div>
 
       <div class="islandora-pdf-metadata col-md-5 pull-right">
@@ -44,5 +43,8 @@
       <!-- end usage stats -->
       </div>
     <?php endif; ?>
+  </div>
+  <div class="islandora-pdf-description">
+	  <?php print $description; ?>
   </div>
 </div>
