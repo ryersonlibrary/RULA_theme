@@ -45,7 +45,7 @@ ul.navbar-nav a,
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>li>a {
         color: #1c5793;
-	background-color: #ffffff;
+		background-color: #ffffff;
         border-radius: 4px;
         padding: 5px 29px 6px 17px;
         margin: 15px 11px 0 0;
@@ -60,8 +60,17 @@ ul.navbar-nav a:focus,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-        color: #1c5793 !important;
+	color: #1c5793 !important;
 	background-color: #f6ac00;
+}
+
+a.dropdown-toggle {
+	color: #1c5793;
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding: 5px 29px 6px 17px;
+	font-size: 14px;
+	border: 1px solid silver;
 }
 
 /*
@@ -191,6 +200,16 @@ ul.islandora-solr-facet > li {
 /*
 * Search form
 */
+
+section#block-system-main-menu.block.block-system.contextual-links-region.block-menu.clearfix {
+	width: 16%; /* FIXME: this should probably be structural markup */
+	float: left;
+	margin-right: 20px;
+}
+
+section#block-islandora-solr-simple.block.block-islandora-solr.contextual-links-region.clearfix {
+	width: 110%; /* FIXME: this should probably be structural markup */
+}
 
 div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-group {
 	width: 75%; /* FIXME: this should probably be structural markup */
