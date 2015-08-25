@@ -104,7 +104,7 @@ ul.navbar-nav:not(.secondary)>.first.leaf>a:focus {
 
 h1, .h1 { font-size: 150%; text-transform: capitalize; }
 h2, .h2 { font-size: 120%; text-transform: capitalize; }
-// h3, .h3 { font-size: 120%; text-transform: capitalize; }
+/* h3, .h3 { font-size: 120%; text-transform: capitalize; } */
 
 
 /*
@@ -148,25 +148,7 @@ div.region.region-sidebar-first.well {
 ul.islandora-solr-facet > li {
 	padding: 3px 0;
 }
-/**
-ul.islandora-solr-facet > li:hover {
-	background-color: #1c5793;
-	color: white;
-}
 
-ul.islandora-solr-facet > li:hover a {
-	color: white;
-}
-
-ul.islandora-solr-facet > li > a {
-	padding: 4px 85px 4px 0;
-}
-
-ul.islandora-solr-facet > li > a:hover {
-	text-decoration: none;
-	color: white;
-}
-**/
 .islandora-solr-facet-wrapper div.panel {
 	border: none;
 	border-radius: 0px;
@@ -206,42 +188,18 @@ ul.islandora-solr-facet > li > a:hover {
 	content: "\f106";
 }
 
-/**
-.islandora-solr-facet .plusminus {
-	background-image: url("../img/facet-bg.png");
-	background-position: 50% 50%;
-	width: 26px;
-	text-align: center;
-}
-
-.islandora-solr-facet .plusminus .plus {
-	color: #fff;
-}
-
-.islandora-solr-facet .plusminus .minus {
-	color: #000;
-}
-
-.islandora-solr-facet .plusminus .plus:hover,
-.islandora-solr-facet .plusminus .minus:hover {
-	text-decoration: none;
-}
-**/
-
 /*
 * Search form
 */
 
-/*
-.region.region-navigation {
-	max-width: 50%;
-	margin: auto;
-	float: left;	
+div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-group {
+	width: 75%; /* FIXME: this should probably be structural markup */
 }
-*/
+
 #islandora-solr-simple-search-form button.btn-primary {
 	background-image: none;
 }
+
 #islandora-solr-simple-search-form button.btn-primary:before {
 	margin-left: 3px;
 	font-family: FontAwesome;
@@ -250,7 +208,7 @@ ul.islandora-solr-facet > li > a:hover {
 
 #edit-islandora-simple-search-query.form-control.form-text {
 	color: #1c5793;
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	height: 30px;
 	/* padding: 0 8px; */
 	/* width: 250px; */
@@ -264,7 +222,7 @@ ul.islandora-solr-facet > li > a:hover {
 	right: 0px;
 	padding: 0 0 0 5px;
 	margin-left: -7px;
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	background-color: #1c5793;
 	font-size: 1.1em;
 	border: none;
