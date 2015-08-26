@@ -198,16 +198,35 @@ ul.islandora-solr-facet > li {
 }
 
 /*
-* Search form
+*	Browse dropdown
+*/
+section#block-menu-menu-browsetest.block.block-menu.contextual-links-region {
+	width: 16%;
+	float: left;
+	margin-right: 25px;
+}
+
+section#block-menu-menu-browsetest a.dropdown-toggle {
+	height: 30px;
+	padding-top: 5px;
+}
+
+.nav.caret {
+	float: right;
+	margin-top: 7px;
+}
+
+/*
+*	Search form
 */
 
-section#block-system-main-menu.block.block-system.contextual-links-region.block-menu.clearfix {
+section#block-system-main-menu.block.block-system.contextual-links-region.block-menu {
 	width: 16%; /* FIXME: this should probably be structural markup */
 	float: left;
 	margin-right: 20px;
 }
 
-section#block-islandora-solr-simple.block.block-islandora-solr.contextual-links-region.clearfix {
+section#block-islandora-solr-simple.block.block-islandora-solr.contextual-links-region {
 	width: 110%; /* FIXME: this should probably be structural markup */
 }
 
