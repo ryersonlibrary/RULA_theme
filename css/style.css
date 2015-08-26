@@ -251,6 +251,34 @@ div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-g
 	line-height: 8px;
 }
 
+
+/**
+*	Search Results
+**/
+div.contextual-links-wrapper.contextual-links-processed p {
+	margin: auto;
+	text-align: center;
+}
+
+a.advanced-search-link {
+	color: #1c5793;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 5px 17px 5px 17px;
+	font-size: 15px;
+	border: 1px solid silver;
+	text-decoration: none;
+}
+
+section#block-islandora-solr-sort.block.block-islandora-solr.contextual-links-region {
+	float: right;
+}
+
+div#islandora-solr-result-count {
+	margin: auto;
+	text-align: center;
+}
+
 /**
 * Feed Aggregator Styles
 **/
