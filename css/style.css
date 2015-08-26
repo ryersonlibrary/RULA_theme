@@ -220,13 +220,21 @@ section#block-menu-menu-browsetest a.dropdown-toggle {
 *	Search form
 */
 
-section#block-system-main-menu.block.block-system.contextual-links-region.block-menu {
+/*
+section
+#block-system-main-menu
+.block
+.block-system
+.contextual-links-region
+.block-menu
+*/
+section.block-menu {
 	width: 16%; /* FIXME: this should probably be structural markup */
 	float: left;
 	margin-right: 20px;
 }
 
-section#block-islandora-solr-simple.block.block-islandora-solr.contextual-links-region {
+section#block-islandora-solr-simple {
 	width: 110%; /* FIXME: this should probably be structural markup */
 }
 
@@ -274,11 +282,6 @@ div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-g
 /**
 *	Search Results
 **/
-div.contextual-links-wrapper.contextual-links-processed p {
-	margin: auto;
-	text-align: center;
-}
-
 a.advanced-search-link {
 	color: #1c5793;
 	background-color: #fff;
@@ -287,9 +290,10 @@ a.advanced-search-link {
 	font-size: 15px;
 	border: 1px solid silver;
 	text-decoration: none;
+	margin-left: 40%;
 }
 
-section#block-islandora-solr-sort.block.block-islandora-solr.contextual-links-region {
+section#block-islandora-solr-sort {
 	float: right;
 }
 
