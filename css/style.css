@@ -200,13 +200,13 @@ ul.islandora-solr-facet > li {
 /*
 *	Browse dropdown
 */
-section#block-menu-menu-browsetest.block.block-menu {
-	width: 16%;
+section.block-menu {
+	width: 16%; /* FIXME: this should probably be structural markup */
 	float: left;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
-section#block-menu-menu-browsetest a.dropdown-toggle {
+section.block-menu a.dropdown-toggle {
 	height: 30px;
 	padding-top: 5px;
 }
@@ -219,24 +219,6 @@ section#block-menu-menu-browsetest a.dropdown-toggle {
 /*
 *	Search form
 */
-
-/*
-section
-#block-system-main-menu
-.block
-.block-system
-.contextual-links-region
-.block-menu
-*/
-section.block-menu {
-	width: 16%; /* FIXME: this should probably be structural markup */
-	float: left;
-	margin-right: 20px;
-}
-
-section#block-islandora-solr-simple {
-	width: 110%; /* FIXME: this should probably be structural markup */
-}
 
 div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-group {
 	width: 75%; /* FIXME: this should probably be structural markup */
