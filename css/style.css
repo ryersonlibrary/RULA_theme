@@ -360,6 +360,19 @@ div.islandora-pdf-metadata {
 	clear: none;
 }
 
+span.islandora-basic-collection-display-switch {
+	display: none;
+}
+
+.islandora-basic-collection-list-item {
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+.islandora-basic-collection-object dt img {
+	width: 50px;
+}
+
 /*********
 TEMPORARY FOR TESTING ONLY
 **********/
