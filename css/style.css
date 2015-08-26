@@ -200,7 +200,7 @@ ul.islandora-solr-facet > li {
 /*
 *	Browse dropdown
 */
-section#block-menu-menu-browsetest.block.block-menu.contextual-links-region {
+section#block-menu-menu-browsetest.block.block-menu {
 	width: 16%;
 	float: left;
 	margin-right: 25px;
