@@ -274,6 +274,9 @@ div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-g
 	line-height: 8px;
 }
 
+label[for='edit-islandora-simple-search-query'] {
+	display: inline;
+}
 
 /**
 *	Search Results
