@@ -245,6 +245,10 @@ ul.islandora-solr-facet > li {
 	width: 100%;
 }
 
+#block-islandora-solr-simple .form-wrapper {
+	margin-bottom: 20px;
+}
+
 #islandora-solr-simple-search-form button.btn-primary {
 	background-image: none;
 }
