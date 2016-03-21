@@ -228,9 +228,8 @@ ul.islandora-solr-facet > li {
 	background-color: #f6ac00;
 }
 
-.nav.caret {
-	float: right;
-	margin-top: 7px;
+#block-menu-menu-brose .caret {
+	margin-left: 9px;
 }
 
 /*
