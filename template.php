@@ -5,6 +5,13 @@
  * template.php
  */
 
+
+function rula_preprocess_region(&$variables) {
+  if ($variables['region'] == 'header') {
+    array_push($variables['classes_array'], 'clearfix');
+  }
+}
+
 /**
  * Implements hook_preprocess_page().
  *
