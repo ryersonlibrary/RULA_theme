@@ -53,7 +53,7 @@ a.advanced-search-link {
 
 .navbar-default .nav.secondary li > a {
 	background: #fff;
-	border: 1px solid #1c5793;
+	border: 1px solid silver;
 	border-radius: 5px;
 	color: #1c5793;
 	font-weight: 600;
@@ -62,7 +62,6 @@ a.advanced-search-link {
 
 .navbar-default .nav.secondary li > a:hover {
 	background: #f6ac00;
-	color: #FFF;
 }
 
 /*
