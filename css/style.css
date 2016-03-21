@@ -29,7 +29,7 @@ a.advanced-search-link {
 */
 
 .navbar-default { height: 50px; }
-.navbar-default .logo { margin-top: 5px; }
+.navbar-default .logo { margin-top: 4px; }
 .navbar-default .logo img { height: 40px; }
 
 /* Site Branding/Title Styles */
@@ -37,8 +37,8 @@ a.advanced-search-link {
 	color: #1c5793;
 	font-weight: 600;
 	font-size: 28px;
-	padding: 15px 25px;
-	line-height: 24px;
+	padding: 15px 20px;
+	line-height: 18px;
 }
 .navbar-default .navbar-brand:hover {
 	color: #f6ac00;
@@ -64,7 +64,6 @@ a.advanced-search-link {
 	background: #f6ac00;
 	color: #FFF;
 }
-
 
 /*
  **************
