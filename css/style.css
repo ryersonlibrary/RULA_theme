@@ -204,38 +204,49 @@ ul.islandora-solr-facet > li {
 	content: "\f106";
 }
 
+/* region-header */
+.region.region-header {
+	position: relative;
+}
 /*
 *	Browse dropdown
 */
-section.block-menu {
-	width: 16%; /* FIXME: this should probably be structural markup */
+#block-menu-menu-browse {
+	width: 100px; /* FIXME: this should probably be structural markup */
 	float: left;
-	margin-right: 20px;
 	z-index: 999;
 }
 
-section.block-menu a.dropdown-toggle {
+#block-menu-menu-browse a.dropdown-toggle {
 	height: 30px;
 	padding-top: 5px;
 }
 
-section.block-menu a.dropdown-toggle:hover,
-section.block-menu a.dropdown-toggle:focus {
+#block-menu-menu-browse a.dropdown-toggle:hover,
+#block-menu-menu-browse a.dropdown-toggle:focus {
 	color: #1c5793 !important;
 	background-color: #f6ac00;
 }
 
-.nav.caret {
-	float: right;
-	margin-top: 7px;
+#block-menu-menu-browse .caret {
+	margin-left: 9px;
 }
 
 /*
 *	Search form
 */
 
-div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-group {
-	width: 75%; /* FIXME: this should probably be structural markup */
+#block-islandora-solr-simple {
+	/* margin-left =  width of #block-menu-menu-browse + 10px */
+	margin-left: 110px; /* FIXME: this should probably be structural markup */
+}
+
+#block-islandora-solr-simple .form-item-islandora-simple-search-query {
+	width: 100%;
+}
+
+#block-islandora-solr-simple .form-wrapper {
+	margin-bottom: 20px;
 }
 
 #islandora-solr-simple-search-form button.btn-primary {
@@ -250,18 +261,17 @@ div.form-type-textfield.form-item-islandora-simple-search-query.form-item.form-g
 
 #edit-islandora-simple-search-query.form-control.form-text {
 	color: #1c5793;
-	/* margin-top: 15px; */
 	height: 30px;
-	/* padding: 0 8px; */
-	/* width: 250px; */
+	width: 100%;
 }
 
-#islandora-solr-simple-search-form button.btn-primary.form-submit,
 #islandora-solr-simple-search-form button.btn-primary.form-submit {
+	position: absolute;
 	font-weight: normal;
 	width: 30px;
 	height: 30px;
-	right: 0px;
+	right: 0;
+	top: 0;
 	padding: 0 0 0 5px;
 	margin-left: -7px;
 	/* margin-top: 15px; */
