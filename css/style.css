@@ -14,6 +14,10 @@ body {
 	background-color: #fcfcfc;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #444;
+}
+
 a {
 	color: #1c5793;
 }
@@ -266,6 +270,7 @@ a.dropdown-toggle {
 }
 
 #islandora-solr-simple-search-form button.btn-primary.form-submit {
+	overflow: hidden;
 	position: absolute;
 	width: 30px;
 	height: 30px;
@@ -359,6 +364,7 @@ span.view-count {
 }
 
 .page-header {
+	font-weight: 700;
 	border: 0;
 	padding-bottom: 0;
 	margin-bottom: 15px;
