@@ -16,6 +16,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #444;
+	font-weight: 600
 }
 
 a {
@@ -430,6 +431,7 @@ span.islandora-basic-collection-display-switch {
 .islandora-metadata legend {
 	margin-bottom: 0;
 	padding: 0 0 5px 0;
+	font-weight: 600;
 }
 
 .islandora-metadata .islandora-metadata-fields dt,
@@ -438,10 +440,10 @@ span.islandora-basic-collection-display-switch {
 }
 
 .islandora-metadata .islandora-metadata-fields dt {
-	width: 20%;
 	text-align: left;
+	font-weight: 400;
 }
 
 .islandora-metadata .islandora-metadata-fields dd {
-	width: 80%;
+	padding-left: 40px;
 }
