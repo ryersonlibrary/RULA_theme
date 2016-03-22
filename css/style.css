@@ -35,7 +35,7 @@ a.advanced-search-link {
 
 /* Makes tabs and menus less gigantic. */
 .nav > li > a {
-	padding: 5px 15px;
+	padding: 5px 11px;
 }
 
 /* The spacelab theme we chose adds a margin bottom here for some reason ... */
@@ -311,7 +311,6 @@ div#islandora-solr-result-count {
 	margin: auto;
 	text-align: center;
 }
-
 /**
 * Feed Aggregator Styles
 **/
@@ -320,24 +319,37 @@ div#islandora-solr-result-count {
 	display: none;
 }
 
-/**
-* Usage stats sidebar styles
-**/
+/*
+ **************
+ * Popular Items Sidebar
+ **************
+*/
+
+#block-islandora-usage-stats-top-usage {
+	padding: 5px; 
+}
 
 #block-islandora-usage-stats-top-usage h2.block-title {
 	font-size: 1.05em;
-	color: #666;
+	font-weight: 700;
+	color: #444;
 }
 
 #block-islandora-usage-stats-top-usage ul {
-	padding-left: 20px;
+	list-style: none;
+	padding: 0;
 }
 
-span.view-count {
-	white-space: nowrap;
-	font-size: 0.8em;
+#block-islandora-usage-stats-top-usage ul > li {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+#block-islandora-usage-stats-top-usage .view-count {
 	color: #666;
-	font-weight: bold;
+	font-size: 10px;
+	font-weight: 700;
+	white-space: nowrap;
 }
 
 /*
@@ -348,7 +360,7 @@ span.view-count {
 
 .breadcrumb {
 	width: 100%;
-	padding: 10px 0 0 0;
+	padding: 0;
 	background: transparent;
 }
 
@@ -365,7 +377,7 @@ span.view-count {
 	color: #f6ac00;
 }
 
-.page-header {
+h1.page-header {
 	font-weight: 700;
 	border: 0;
 	padding-bottom: 0;
