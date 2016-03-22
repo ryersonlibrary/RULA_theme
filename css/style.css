@@ -330,7 +330,7 @@ div#islandora-solr-result-count {
 }
 
 #block-islandora-usage-stats-top-usage h2.block-title {
-	font-size: 1.05em;
+	font-size: 18px;
 	font-weight: 700;
 	color: #444;
 }
@@ -362,6 +362,8 @@ div#islandora-solr-result-count {
 	width: 100%;
 	padding: 0;
 	background: transparent;
+	margin-bottom: 12px;
+	font-size: 13px;
 }
 
 .breadcrumb>.active.last {
@@ -381,7 +383,7 @@ h1.page-header {
 	font-weight: 700;
 	border: 0;
 	padding-bottom: 0;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 
 section.col-sm-9 div.region.region-content {
