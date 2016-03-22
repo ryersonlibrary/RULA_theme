@@ -419,3 +419,9 @@ span.islandora-basic-collection-display-switch {
 .islandora-basic-collection-object dt img {
 	width: 50px;
 }
+
+/* Islandora Download Link Style */
+.islandora_download_link a {
+	display: block;
+	border-radius: 0;
+}
