@@ -375,6 +375,10 @@ div#islandora-solr-result-count {
 	font-size: 13px;
 }
 
+.breadcrumb li {
+	display: inline;
+}
+
 .breadcrumb>.active.last {
 	max-width: 70%;
 	white-space: nowrap;
