@@ -11,7 +11,7 @@
 body {
 	font-size: 150%;
 	color: #555555;
-	background-color: #fcfcfc;
+	background-color: #fdfdfd;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -50,6 +50,7 @@ a.advanced-search-link {
  * Site Topbar styles
  **************
 */
+
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: right;
@@ -91,6 +92,7 @@ a.advanced-search-link {
 
 .navbar-default .nav li > a:hover {
 	background: #f6ac00;
+	color: #1c5793;
 }
 
 /*
