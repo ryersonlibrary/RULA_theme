@@ -29,6 +29,11 @@ a.advanced-search-link {
  **************
 */
 
+/* Makes tabs and menus less gigantic. */
+.nav > li > a {
+	padding: 5px 15px;
+}
+
 /* The spacelab theme we chose adds a margin bottom here for some reason ... */
 .nav-tabs { 
 	margin-bottom: 0; 
@@ -359,10 +364,10 @@ span.view-count {
 	color: #f6ac00;
 }
 
-h1.page-header {
+.page-header {
 	border: 0;
-	margin: 0;
-	color: #555;
+	padding-bottom: 0;
+	margin-bottom: 15px;
 }
 
 section.col-sm-9 div.region.region-content {
