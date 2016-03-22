@@ -41,7 +41,8 @@ a.advanced-search-link {
 /* The spacelab theme we chose adds a margin bottom here for some reason ... */
 .nav-tabs { 
 	margin-bottom: 0; 
-	border-bottom: 0;
+	border-bottom: 0; 
+	font-size: 13px;
 }
 
 
