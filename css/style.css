@@ -22,6 +22,20 @@ a.advanced-search-link {
 	font-size: 120%;
 }
 
+
+/*
+ **************
+ * Bootstrap overrides
+ **************
+*/
+
+/* The spacelab theme we chose adds a margin bottom here for some reason ... */
+.nav-tabs { 
+	margin-bottom: 0; 
+	border-bottom: 0;
+}
+
+
 /*
  **************
  * Site Topbar styles
@@ -356,7 +370,10 @@ section.col-sm-9 div.region.region-content {
 	margin-bottom: 20px;
 	background-color: #f5f5f5;
 	border: 1px solid #e3e3e3;
-	border-radius: 4px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 div.fieldset-wrapper {
