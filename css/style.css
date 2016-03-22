@@ -27,6 +27,12 @@ a.advanced-search-link {
  * Site Topbar styles
  **************
 */
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right;
+		margin: 0;
+	}
+}
 
 .navbar-default { height: 50px; }
 .navbar-default .logo { margin-top: 4px; }
@@ -45,13 +51,13 @@ a.advanced-search-link {
 }
 
 /* Make the secondary menu links look like buttons! */
-.navbar-default .nav.secondary li {
+.navbar-default .nav li {
 	padding-top: 9px;
 	padding-bottom: 9px;
 	margin-left: 10px;
 }
 
-.navbar-default .nav.secondary li > a {
+.navbar-default .nav li > a {
 	background: #fff;
 	border: 1px solid silver;
 	border-radius: 5px;
@@ -60,7 +66,7 @@ a.advanced-search-link {
 	padding: 5px 10px;
 }
 
-.navbar-default .nav.secondary li > a:hover {
+.navbar-default .nav li > a:hover {
 	background: #f6ac00;
 }
 
