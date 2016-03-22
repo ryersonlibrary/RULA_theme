@@ -425,3 +425,23 @@ span.islandora-basic-collection-display-switch {
 	display: block;
 	border-radius: 0;
 }
+
+/* Islandora Metadata */
+.islandora-metadata legend {
+	margin-bottom: 0;
+	padding: 0 0 5px 0;
+}
+
+.islandora-metadata .islandora-metadata-fields dt,
+.islandora-metadata .islandora-metadata-fields dd {
+	padding: 5px 0;
+}
+
+.islandora-metadata .islandora-metadata-fields dt {
+	width: 20%;
+	text-align: left;
+}
+
+.islandora-metadata .islandora-metadata-fields dd {
+	width: 80%;
+}
