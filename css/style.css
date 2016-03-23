@@ -53,6 +53,82 @@ a.advanced-search-link {
 	font-size: 13px;
 }
 
+/*
+ **************
+ * Drupal Admin Overrides
+ **************
+*/
+
+/* This is ugly, but for whatever reason they set a height for this element... */
+div#toolbar div.toolbar-shortcuts ul {
+	height: auto;
+}
+
+/* The padding for the toolbar-drawer is set to !important, so the JS can't update it properly...*/
+/* Superhacky media queries! */
+body.toolbar-drawer {
+	padding-top: 283px !important;
+}
+
+@media (min-width: 266px) {
+	body.toolbar-drawer {
+		padding-top: 263px !important;
+	}
+}
+
+@media (min-width: 295px) {
+	body.toolbar-drawer {
+		padding-top: 243px !important;
+	}
+}
+
+@media (min-width: 297px) {
+	body.toolbar-drawer {
+		padding-top: 223px !important;
+	}
+}
+
+@media (min-width: 306px) {
+	body.toolbar-drawer {
+		padding-top: 199px !important;
+	}
+}
+
+@media (min-width: 356px) {
+	body.toolbar-drawer {
+		padding-top: 179px !important;
+	}
+}
+
+@media (min-width: 441px) {
+	body.toolbar-drawer {
+		padding-top: 159px !important;
+	}
+}
+
+@media (min-width: 451px) {
+	body.toolbar-drawer {
+		padding-top: 135px !important;
+	}
+}
+
+@media (min-width: 543px) {
+	body.toolbar-drawer {
+		padding-top: 104px !important;
+	}
+}
+
+@media (min-width: 786px) {
+	body.toolbar-drawer {
+		padding-top: 84px !important;
+	}
+}
+
+@media (min-width: 1006px) {
+	body.toolbar-drawer {
+		padding-top: 64px !important;
+	}
+}
 
 /*
  **************
