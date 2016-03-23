@@ -475,13 +475,8 @@ div#islandora-solr-result-count {
 	display: inline;
 }
 
-.breadcrumb li > a {
-	color: #777;
-}
-
 .breadcrumb li.active {
-	color: #1c5793;
-	font-weight: 700
+	font-weight: 700;
 }
 
 .breadcrumb > .active.last {
