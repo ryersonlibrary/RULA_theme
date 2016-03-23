@@ -12,6 +12,7 @@ body {
 	font-size: 150%;
 	color: #555555;
 	background-color: #fdfdfd;
+	min-width: 465px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -26,7 +27,6 @@ a {
 a.advanced-search-link {
 	font-size: 120%;
 }
-
 
 /*
  **************
@@ -53,12 +53,108 @@ a.advanced-search-link {
 	font-size: 13px;
 }
 
+/*
+ **************
+ * Drupal Admin Overrides
+ **************
+*/
+
+/* This is ugly, but for whatever reason they set a height for this element... */
+div#toolbar div.toolbar-shortcuts ul {
+	height: auto;
+}
+
+/* The padding for the toolbar-drawer is set to !important, so the JS can't update it properly...*/
+/* Superhacky media queries! */
+body.toolbar-drawer {
+	padding-top: 283px !important;
+}
+
+@media (min-width: 266px) {
+	body.toolbar-drawer {
+		padding-top: 263px !important;
+	}
+}
+
+@media (min-width: 295px) {
+	body.toolbar-drawer {
+		padding-top: 243px !important;
+	}
+}
+
+@media (min-width: 297px) {
+	body.toolbar-drawer {
+		padding-top: 223px !important;
+	}
+}
+
+@media (min-width: 306px) {
+	body.toolbar-drawer {
+		padding-top: 199px !important;
+	}
+}
+
+@media (min-width: 356px) {
+	body.toolbar-drawer {
+		padding-top: 179px !important;
+	}
+}
+
+@media (min-width: 441px) {
+	body.toolbar-drawer {
+		padding-top: 159px !important;
+	}
+}
+
+@media (min-width: 451px) {
+	body.toolbar-drawer {
+		padding-top: 132px !important;
+	}
+}
+
+@media (min-width: 543px) {
+	body.toolbar-drawer {
+		padding-top: 104px !important;
+	}
+}
+
+@media (min-width: 786px) {
+	body.toolbar-drawer {
+		padding-top: 84px !important;
+	}
+}
+
+@media (min-width: 1006px) {
+	body.toolbar-drawer {
+		padding-top: 64px !important;
+	}
+}
 
 /*
  **************
  * Site Topbar styles
  **************
 */
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-collapse {
+		background: #fff;
+		padding: 7.5px 15px;
+		border: 1px solid #000;
+	}
+
+	.navbar-default .nav li > a {
+		display: block;
+	}
+
+	ul.secondary {
+		float:	none;
+	}
+
+	.navbar-nav {
+		margin: 0;
+	}
+}
 
 @media (min-width: 768px) {
 	.navbar-nav {
@@ -103,6 +199,7 @@ a.advanced-search-link {
 	background: #f6ac00;
 	color: #1c5793;
 }
+
 
 /*
  **************
