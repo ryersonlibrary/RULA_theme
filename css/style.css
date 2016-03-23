@@ -28,7 +28,6 @@ a.advanced-search-link {
 	font-size: 120%;
 }
 
-
 /*
  **************
  * Bootstrap overrides
@@ -137,6 +136,12 @@ body.toolbar-drawer {
  **************
 */
 
+@media (max-width: 767px) {
+	ul.secondary {
+		float:	none;
+	}
+}
+
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: right;
@@ -180,6 +185,7 @@ body.toolbar-drawer {
 	background: #f6ac00;
 	color: #1c5793;
 }
+
 
 /*
  **************
