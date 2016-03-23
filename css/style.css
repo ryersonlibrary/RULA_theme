@@ -516,13 +516,28 @@ div.islandora-pdf-metadata {
 	clear: none;
 }
 
+/*
+ **************
+ * Islandora browse pages
+ **************
+*/
+
+/* hide the gridview/listview button */
 span.islandora-basic-collection-display-switch {
 	display: none;
 }
 
-.islandora-basic-collection-list-item {
-	padding-bottom: 1em;
+.islandora-basic-collection .pagination {
 	margin: 0;
+}
+
+.islandora-basic-collection-list-item {
+	padding-top: 1em;
+	margin: 0;
+}
+
+.islandora-basic-collection-list-item:last-child {
+	border: 0;
 }
 
 .islandora-basic-collection-object dt img {
