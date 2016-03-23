@@ -532,17 +532,31 @@ span.islandora-basic-collection-display-switch {
 }
 
 .islandora-basic-collection-list-item {
-	padding-top: 1em;
 	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .islandora-basic-collection-list-item:last-child {
 	border: 0;
 }
 
+.islandora-basic-collection-object dl {
+	margin-bottom: 0;
+}
+
+.islandora-basic-collection-list-item dl dt {
+	margin-right: 20px;
+	width: 155px;
+}
+
+.islandora-basic-collection-list-item dl dd {
+	margin: 0;
+}
+
 .islandora-basic-collection-object dt img {
- 	border-radius: 0;
 	border: 1px solid silver;
+ 	border-radius: 0;
 }
  
 .islandora-pdf-content-wrapper {
@@ -552,8 +566,8 @@ span.islandora-basic-collection-display-switch {
 
 /* Islandora Download Link Style */
 .islandora_download_link a {
-	display: block;
 	border-radius: 0;
+	display: block;
 }
 
 /* Islandora Metadata */
