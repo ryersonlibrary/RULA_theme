@@ -541,7 +541,7 @@ span.islandora-basic-collection-display-switch {
 	border: 0;
 }
 
-.islandora-basic-collection-object dl {
+.islandora-basic-collection-list-item dl {
 	margin-bottom: 0;
 }
 
@@ -554,7 +554,7 @@ span.islandora-basic-collection-display-switch {
 	margin: 0;
 }
 
-.islandora-basic-collection-object dt img {
+.islandora-basic-collection-list-item dt img {
 	border: 1px solid silver;
  	border-radius: 0;
 }
