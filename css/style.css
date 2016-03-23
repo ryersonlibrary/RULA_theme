@@ -465,9 +465,8 @@ div#islandora-solr-result-count {
 */
 
 .breadcrumb {
-	width: 100%;
 	padding: 0;
-	background: transparent;
+	background: none;
 	margin-bottom: 12px;
 	font-size: 13px;
 }
