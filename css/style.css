@@ -475,17 +475,28 @@ div#islandora-solr-result-count {
 	display: inline;
 }
 
-.breadcrumb>.active.last {
+.breadcrumb li > a {
+	color: #777;
+}
+
+.breadcrumb li.active {
+	color: #1c5793;
+	font-weight: 700
+}
+
+.breadcrumb > .active.last {
 	max-width: 70%;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
-.breadcrumb>li+li:before {
+.breadcrumb > li + li:before {
+	color: #f6ac00;
 	content: "\f101";
 	font-family: 'FontAwesome';
-	color: #f6ac00;
+	font-weight: 400;
+	padding: 0px 5px 0 3px;
 }
 
 h1.page-header {
