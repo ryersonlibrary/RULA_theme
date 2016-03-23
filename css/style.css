@@ -137,8 +137,22 @@ body.toolbar-drawer {
 */
 
 @media (max-width: 767px) {
+	.navbar-default .navbar-collapse {
+		background: #fff;
+		padding: 7.5px 15px;
+		border: 1px solid #000;
+	}
+
+	.navbar-default .nav li > a {
+		display: block;
+	}
+
 	ul.secondary {
 		float:	none;
+	}
+
+	.navbar-nav {
+		margin: 0;
 	}
 }
 
