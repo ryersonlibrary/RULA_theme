@@ -546,12 +546,14 @@ span.islandora-basic-collection-display-switch {
 }
 
 .islandora-basic-collection-list-item dl dt {
-	margin-right: 20px;
+	margin-right: 12px;
+	padding: 0;
 	width: 155px;
 }
 
 .islandora-basic-collection-list-item dl dd {
 	margin: 0;
+	padding: 0;
 }
 
 .islandora-basic-collection-list-item dt img {
@@ -559,6 +561,14 @@ span.islandora-basic-collection-display-switch {
  	border-radius: 0;
 }
  
+.islandora-basic-collection-list-item .dc-title {
+	font-size: 1.15em;
+}
+
+.islandora-basic-collection-list-item .dc-description {
+	margin-top: 0.5em;
+}
+
 .islandora-pdf-content-wrapper {
 	margin-left: -15px;
 	margin-right: -15px;
