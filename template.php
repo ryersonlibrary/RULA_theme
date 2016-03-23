@@ -66,7 +66,16 @@ function rula_preprocess_page(&$variables) {
     		else {
     $variables['navbar_classes_array'][] = 'navbar-default';
   }
-  }
+
+  // $viewport = array(
+  //   '#tag' => 'meta',
+  //   '#attributes' => array(
+  //     'name' => 'viewport',
+  //     'content' => 'width=465, initial-scale=1.0'
+  //   )
+  // );
+  // drupal_add_html_head($viewport, 'viewport');
+}
 
 /**
  * Implements hook_process_page().
