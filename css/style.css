@@ -349,6 +349,8 @@ a.dropdown-toggle {
 */
 
 #block-islandora-solr-simple {
+	position: relative;
+	z-index: 100;
 	/* margin-left =  width of #block-menu-menu-browse + 10px */
 	margin-left: 110px; /* FIXME: this should probably be structural markup */
 }
@@ -393,6 +395,18 @@ a.dropdown-toggle {
 	font-size: 1.1em;
 	border: none;
 	border-radius: 0 4px 4px 0;
+}
+
+#block-islandora-solr-simple .simple-search-drawer {
+	position: absolute;
+	background: #fff;
+	margin-top: -25px;
+	width: 100%;
+	padding: 10px 7px 4px 7px;
+	border: 1px solid silver;
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	z-index: -1;;;
 }
 
 /**
