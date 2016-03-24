@@ -349,6 +349,8 @@ a.dropdown-toggle {
 */
 
 #block-islandora-solr-simple {
+	position: relative;
+	z-index: 100;
 	/* margin-left =  width of #block-menu-menu-browse + 10px */
 	margin-left: 110px; /* FIXME: this should probably be structural markup */
 }
@@ -361,23 +363,27 @@ a.dropdown-toggle {
 	margin-bottom: 20px;
 }
 
-#islandora-solr-simple-search-form button.btn-primary {
+#block-islandora-solr-simple button.btn-primary {
 	background-image: none;
 }
 
-#islandora-solr-simple-search-form button.btn-primary:before {
+#block-islandora-solr-simple button.btn-primary:before {
 	margin-left: 3px;
 	font-family: FontAwesome;
 	content: "\f002 ";
 }
 
-#edit-islandora-simple-search-query.form-control.form-text {
+#block-islandora-solr-simple .form-control.form-text {
 	color: #1c5793;
 	height: 30px;
 	width: 100%;
 }
 
-#islandora-solr-simple-search-form button.btn-primary.form-submit {
+#block-islandora-solr-simple .control-label {
+	display: inline;
+}
+
+#block-islandora-solr-simple button.btn-primary.form-submit {
 	overflow: hidden;
 	position: absolute;
 	width: 30px;
@@ -391,8 +397,16 @@ a.dropdown-toggle {
 	border-radius: 0 4px 4px 0;
 }
 
-label[for='edit-islandora-simple-search-query'] {
-	display: inline;
+#block-islandora-solr-simple .simple-search-drawer {
+	position: absolute;
+	background: #fff;
+	margin-top: -25px;
+	width: 100%;
+	padding: 10px 7px 4px 7px;
+	border: 1px solid silver;
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	z-index: -1;;;
 }
 
 /**
