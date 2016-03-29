@@ -604,3 +604,6 @@ span.islandora-basic-collection-display-switch {
 .islandora-metadata .islandora-metadata-fields dd {
 	padding-left: 40px;
 }
+
+/* Islandora Altmetrics plugin block */
+.block-islandora-altmetrics-islandora-altmetrics-altmetrics { float: right; }
