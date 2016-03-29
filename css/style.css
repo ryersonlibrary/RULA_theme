@@ -606,4 +606,4 @@ span.islandora-basic-collection-display-switch {
 }
 
 /* Islandora Altmetrics plugin block */
-.block-islandora-altmetrics-islandora-altmetrics-altmetrics { float: right; }
+#block-islandora-altmetrics-islandora-altmetrics-altmetrics { float: right; }
