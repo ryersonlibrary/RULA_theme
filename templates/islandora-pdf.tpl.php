@@ -18,19 +18,7 @@
 				<?php print $islandora_download_link; ?>
 			</div>
       <?php endif; ?>
-      <!-- usage stats -->
-      <?php if (module_exists('islandora_usage_stats')): ?>
-      	<div class="islandora-usage-stats">
-      	  <br />
-		  <p>
-			  Viewed: <span class="badge"><?php print $times_viewed ?></span>
-			  Downloaded: <span class="badge"><?php print $times_downloaded ?></span>
-		  </p>
-	  	</div>
-      <?php endif; ?>
-      <!-- end usage stats -->
-      </div>
-
+  </div>
       <div class="islandora-pdf-metadata col-md-6 pull-right">
       <?php print $metadata; ?>
   </div>
