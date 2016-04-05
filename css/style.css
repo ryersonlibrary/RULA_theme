@@ -199,6 +199,20 @@ body.toolbar-drawer {
 
 /*
  **************
+ * Sidebar Style
+ **************
+*/
+
+div.region.region-sidebar-first.well {
+	background: #f5f5f5;
+	border: 1px solid #dddddd;
+	box-shadow: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+/*
+ **************
  * Footer styles
  **************
 */
@@ -245,14 +259,6 @@ h2, .h2 { font-size: 120%; text-transform: capitalize; }
  * Solr styles
  **************
 */
-
-div.region.region-sidebar-first.well {
-	padding: 5px;
-	border: none;
-	background: transparent;
-	border-radius: 0px;
-}
-
 
 .block ul.islandora-solr-facet {
 	padding: 0;
@@ -455,6 +461,27 @@ div#islandora-solr-result-count {
 	font-size: 10px;
 	font-weight: 700;
 	white-space: nowrap;
+}
+
+/*
+ **************
+ * Viewed Recently Sidebar
+ **************
+*/
+
+
+#block-islandora-usage-stats-recent-activity .block-title { 
+	color: #444;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#block-islandora-usage-stats-recent-activity item li {
+	background: none;
+	border: 0;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 0;
 }
 
 /*
