@@ -432,51 +432,20 @@ div#islandora-solr-result-count {
 
 /*
  **************
- * Popular Items Sidebar
+ * Islandora usage stats block styles
  **************
 */
-
-#block-islandora-usage-stats-top-usage {
-	padding: 5px; 
-}
-
-#block-islandora-usage-stats-top-usage h2.block-title {
-	font-size: 18px;
-	font-weight: 700;
-	color: #444;
-}
-
-#block-islandora-usage-stats-top-usage ul {
-	list-style: none;
+.block-islandora-usage-stats {
 	padding: 0;
 }
 
-#block-islandora-usage-stats-top-usage ul > li {
-	margin-top: 10px;
-	font-size: 15px;
-}
-
-#block-islandora-usage-stats-top-usage .view-count {
-	color: #666;
-	font-size: 10px;
-	font-weight: 700;
-	white-space: nowrap;
-}
-
-/*
- **************
- * Viewed Recently Sidebar
- **************
-*/
-
-
-#block-islandora-usage-stats-recent-activity .block-title { 
+.block-islandora-usage-stats .block-title {	
 	color: #444;
 	font-size: 18px;
 	font-weight: 700;
 }
 
-#block-islandora-usage-stats-recent-activity item li {
+.block-islandora-usage-stats item li {
 	background: none;
 	border: 0;
 	font-size: 15px;
