@@ -583,9 +583,22 @@ span.islandora-basic-collection-display-switch {
 }
 
 /* Islandora Download Link Style */
-.islandora_download_link a {
+.islandora_download_link a.islandora-pdf-link {
+	background: #1c5793;
 	border-radius: 0;
+	color: #fcfcfc;
 	display: block;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	transition: background ease-in 0.2s;
+}
+
+.islandora_download_link a.islandora-pdf-link:hover {
+	text-decoration: none;
+	background: #3399f3;
 }
 
 /* Islandora Metadata */
