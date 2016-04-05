@@ -199,6 +199,20 @@ body.toolbar-drawer {
 
 /*
  **************
+ * Sidebar Style
+ **************
+*/
+
+div.region.region-sidebar-first.well {
+	background: #f5f5f5;
+	border: 1px solid #dddddd;
+	box-shadow: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+/*
+ **************
  * Footer styles
  **************
 */
@@ -245,14 +259,6 @@ h2, .h2 { font-size: 120%; text-transform: capitalize; }
  * Solr styles
  **************
 */
-
-div.region.region-sidebar-first.well {
-	padding: 5px;
-	border: none;
-	background: transparent;
-	border-radius: 0px;
-}
-
 
 .block ul.islandora-solr-facet {
 	padding: 0;
@@ -426,35 +432,33 @@ div#islandora-solr-result-count {
 
 /*
  **************
- * Popular Items Sidebar
+ * Islandora usage stats block styles
  **************
 */
-
-#block-islandora-usage-stats-top-usage {
-	padding: 5px; 
-}
-
-#block-islandora-usage-stats-top-usage h2.block-title {
-	font-size: 18px;
-	font-weight: 700;
-	color: #444;
-}
-
-#block-islandora-usage-stats-top-usage ul {
-	list-style: none;
+.block-islandora-usage-stats {
 	padding: 0;
 }
 
-#block-islandora-usage-stats-top-usage ul > li {
-	margin-top: 10px;
-	font-size: 15px;
+.block-islandora-usage-stats .block-title {	
+	color: #444;
+	font-size: 18px;
+	font-weight: 700;
 }
 
-#block-islandora-usage-stats-top-usage .view-count {
+.block-islandora-usage-stats .list-group .list-group-item {
+	background: none;
+	border: 0;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.block-islandora-usage-stats .list-group .list-group-item .label {
+	background: 0;
 	color: #666;
-	font-size: 10px;
-	font-weight: 700;
-	white-space: nowrap;
+	font-size: 12px;
+	padding: 0;
+	margin-left: 5px;
 }
 
 /*
