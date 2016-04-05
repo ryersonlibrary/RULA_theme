@@ -445,12 +445,20 @@ div#islandora-solr-result-count {
 	font-weight: 700;
 }
 
-.block-islandora-usage-stats item li {
+.block-islandora-usage-stats .list-group .list-group-item {
 	background: none;
 	border: 0;
 	font-size: 15px;
 	margin-top: 10px;
 	padding: 0;
+}
+
+.block-islandora-usage-stats .list-group .list-group-item .label {
+	background: 0;
+	color: #666;
+	font-size: 12px;
+	padding: 0;
+	margin-left: 5px;
 }
 
 /*
