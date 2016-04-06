@@ -624,3 +624,6 @@ span.islandora-basic-collection-display-switch {
 
 /* Islandora Altmetrics plugin block */
 #block-islandora-altmetrics-islandora-altmetrics-altmetrics { float: right; }
+
+/* Islandora XML Forms Editor Styles */
+#ui-datepicker-div { display: none; }
