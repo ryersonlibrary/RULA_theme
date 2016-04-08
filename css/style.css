@@ -461,6 +461,11 @@ div#islandora-solr-result-count {
 	margin-left: 5px;
 }
 
+#block-islandora-usage-stats-usage-views {
+	float: right;
+	margin-right: 8px;
+}
+
 /*
  **************
  * Main content styles
